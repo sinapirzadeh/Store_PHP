@@ -1,0 +1,38 @@
+@media screen and (max-width: 1200px) {
+    .category-cart > img {
+        height: 180px;
+    }
+
+    .cart > img {
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .category-cart > img {
+        height: 130px;
+    }
+
+    .cart > img {
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .category-cart > img {
+        height: 200px;
+    }
+    
+    .row {
+        justify-content: center;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .site-logo > a > img {
+        width: 150px;
+    }
+}
